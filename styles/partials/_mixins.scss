@@ -1,0 +1,24 @@
+@mixin discover-heading{
+    color: $secondaryfont-color;
+	font-family: $heading;
+	font-style: italic;
+	font-weight: 700;
+
+}
+@mixin a{
+    color:$background;
+    text-decoration: none;
+}
+@mixin contact{
+    color:$secondaryfont-color;
+    background-color:$background;
+    text-decoration:underline;
+}
+@mixin menu{
+    color:$secondaryfont-color;
+    background-color:$background;
+    text-decoration:underline;
+}
+@mixin nav-mobile{
+
+}
